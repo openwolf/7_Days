@@ -1,0 +1,8 @@
+html { font-family: "microsoft yahei"; }
+.btn_group{ margin: 10px 0; }
+.btn_group input { width: 30px; margin-right: 10px; height: 30px; box-sizing: border-box; vertical-align: middle; transition: 500ms; border: 1px solid #eaebed; padding: 0 2px; line-height: 28px; font-size: 16px; }
+.btn_group #year_val { width: 60px; }
+.btn_group input.bg { background: #fbe496; }
+.btn_group #btn { text-decoration: none; display: inline-block; line-height: 30px; background: coral; color: #fff; vertical-align: middle; padding: 0 4px; transition: 0.5s; }
+.btn_group #btn:hover { box-shadow: 10px 11px 26px -20px rgba(0,0,0,1); }
+.btn_group #btn:active { border-radius: 8px; }

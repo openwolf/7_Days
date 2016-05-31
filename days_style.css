@@ -1,0 +1,56 @@
+/* 主体 */
+.t7_day { width: 242px; background: #fff; border: 1px solid #b1d2ec; padding: 5px; outline: 0; font-size: 14px; font-family: "微软雅黑", "宋体", arial; box-sizing: border-box; }
+
+/* 年月控制条 */
+.t7_day .y_m_btn { height: 31px; padding-bottom: 5px; box-sizing: border-box; }
+
+/* 年月按钮 */
+.y_m_btn .y_btn ,.y_m_btn .m_btn { float: left; border: 1px solid #b1d2ec; height: 26px; box-sizing: border-box; }
+.y_m_btn .y_btn { width: 123px; margin-right: 6px; }
+.y_m_btn .m_btn { width: 101px; }
+
+/* 年部分的按钮 */
+.y_btn .l ,.y_btn .r ,.y_btn .year { float: left; background: #deecf8; height: 24px; position: relative; }
+.y_btn .l ,.y_btn .r { width: 20px; }
+.y_btn .l .arrows { border-right-color: #3081c2; position: absolute; right: 7px; top: 7px; }
+.y_btn .r .arrows { border-left-color: #3081c2; position: absolute; left: 7px; top: 7px; }
+.y_btn .year { background: #fff; width: 81px; border: 1px solid #b1d2ec; border-top: none; border-bottom: none; box-sizing: border-box; padding-left: 12px; line-height: 24px; color: #1f547e; }
+.y_btn .year .arrows { border-top-color: #3081c2; position: absolute; right: 7px; top: 10px; }
+
+/* 月部分的按钮 */
+.m_btn .l ,.m_btn .r ,.m_btn .month { float: left; background: #deecf8; height: 24px; position: relative; }
+.m_btn .l ,.m_btn .r { width: 20px; }
+.m_btn .l .arrows { border-right-color: #3081c2; position: absolute; right: 7px; top: 7px; }
+.m_btn .r .arrows { border-left-color: #3081c2; position: absolute; left: 7px; top: 7px; }
+.m_btn .month { background: #fff; width: 59px; border: 1px solid #b1d2ec; border-top: none; border-bottom: none; box-sizing: border-box; padding-left: 6px; line-height: 24px; color: #1f547e; }
+.m_btn .month .arrows { border-top-color: #3081c2; position: absolute; right: 7px; top: 10px; }
+
+/* 日历部分 */
+.t7_day .t7_calendar { width: 230px; height: 144px; box-sizing: border-box; border: 1px solid #b1d2ec; margin-bottom: 5px; }
+.t7_calendar thead { background: #deecf8; height: 22px; }
+.t7_calendar th ,.t7_calendar td { text-align: center; color: #1F547E; cursor: default; }
+.t7_calendar td { line-height: 20px; border: 1px solid #b1d2ec; font-size: 12px; cursor: pointer; }
+.t7_calendar td:hover { background: #ecf4fb; }
+
+/* 底部选项部分 */
+.t7_day .foot_btn { height: 22px; }
+.foot_btn .time ,.foot_btn .btngroup { float: left; }
+.foot_btn .time { width: 111px; box-sizing: border-box; border: 1px solid #b1d2ec; margin-right: 7px; }
+.time li { float: left; text-align: center; color: #1F547E; }
+.time input { box-sizing: border-box; width: 22px; height: 20px; line-height: 20px; float: left; text-align: center; font-size: 12px; }
+.time .time_text { text-align: center; width: 34px; line-height: 20px; border-right: 1px solid #b1d2ec; box-sizing: border-box; background: #ecf4fb; }
+.foot_btn .btngroup { width: 112px; border: 1px solid #b1d2ec; box-sizing: border-box; background: #ecf4fb; height: 22px; }
+.foot_btn .btngroup a { float: left; width: 36px; line-height: 20px; color: #1F547E; text-align: center; height: 20px; }
+.foot_btn .btngroup a:hover { background: #fff; }
+.foot_btn .btngroup a + a { border-left: 1px solid #b1d2ec; }
+
+/* 三角 */
+.t7_day .arrows { display: block; border: 5px solid transparent; width: 0; height: 0; }
+
+/* 样式重置 */
+.t7_day * { padding: 0; margin: 0; }
+.t7_day a,.t7_day a:hover {text-decoration:none; } 
+.t7_day table {border-collapse:collapse;border-spacing:0; }
+.t7_day th { font-weight:normal; }
+.t7_day li { list-style: none; }
+.t7_day input { border: none; }
