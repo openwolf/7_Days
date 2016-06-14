@@ -15,6 +15,16 @@ function set_td_val(obj, year, month, day, week) {
     obj.innerHTML = day;
 }
 
+function tab_init() {
+    var now = new Date(),
+        year = now.getFullYear(),
+        month = (now.getMonth() + 1) < 10 ? "0"+(now.getMonth() + 1) : now.getMonth() + 1 ,
+        day = now.getDate();
+    $(".year span").html(year+"年");
+    $(".month span").html(month+"月");
+    month_table( year, month);
+}
+
 function month_table(year, month) {
     console.time("t1");
     //计算循环的值

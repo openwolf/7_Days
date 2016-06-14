@@ -6,6 +6,8 @@ $(function () {
 		console.log(1);
 		console.log($(this)[0].dayData);
 	});
+    /* 初始化 */
+    tab_init();
 	var year_val = parseInt($("#year_val").val());
 	var month_val = parseInt($("#month_val").val());
 	var btn = $("#btn");
